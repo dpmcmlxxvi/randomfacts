@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Daniel Pulido" />
+    <meta name="contact" content="dpmcmlxxvi@gmail.com" />
+    <meta name="description" content="Generate random facts about people." />
+    <title>Random Facts</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/randomfacts.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="http://dpmcmlxxvi.github.io/randomfacts">
+      <img src="./img/icon.png" /> 
+      <img src="./img/logo-white.png" /></a>
+      <ul class="navbar-nav ml-auto d-none d-md-block">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/dpmcmlxxvi/randomfacts">
+            <img src="./img/github.png" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main role="main" class="container">
+
+      <!-- Description -->
+      <div class="row justify-content-center">
+        <div class="col">
+          <p class="lead text-center">
+            <kbd>
+              Enter a file with names in the box below.
+            </kbd>
+            <br/>
+            Magically see facts about them generated.
+            <br/>
+          </p>
+        </div>
+      </div>
+
+      <!-- File Upload -->
+      <div class="row file-upload">
+        <div class="col">
+
+          <div class="drag-box">
+          <!-- Drag and Drop Zone -->
+            <input accept=".txt,.csv"
+                   class="drag-zone"
+                   onchange="readFile(this);"
+                   type="file"/>
+            <div class="text-center">
+              <h3>
+                <span class="droppable d-none">Drop or</span>
+                Select a file
+              </h3>
+              <small>
+                Use a simple .txt or .csv file with one name per line.
+              </small>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Facts Table -->
+      <div class="row">
+        <div class="col">
+
+          <div id="name-table" class="table-responsive">
+            <table class="table table-bordered table-hover table-sm table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Fact</th>
+                </tr>
+              </thead>
+              <tbody id="name-table-body"></tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div id="warning-message" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header alert-danger">
+              <h4 class="modal-title">Warning</h4>
+            </div>
+            <div id="warning-text" class="modal-body">
+              Error occurred. Try reloading page.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="./js/jquery.min.js"></script> 
+    <script src="./js/bootstrap.min.js"></script> 
+    <script src="./js/randomfacts.js"></script>
+    <script src="./js/randomfacts.web.js"></script>
+
+  </body>
+</html>
