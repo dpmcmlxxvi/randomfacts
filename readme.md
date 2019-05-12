@@ -29,8 +29,8 @@ A sample website can be found in the [`web`][randomfacts-web] directory.
 #### In Node
 
 ```javascript
-npm install randomfacts
-const randomfacts = require('randomfacts');
+npm install @dpmcmlxxvi/randomfacts
+const randomfacts = require('@dpmcmlxxvi/randomfacts');
 const fact = randomfacts.make('Scrapy-Doo');
 // returns a string like "Scrappy-Doo punched a clown somewhere in Germany."
 ```

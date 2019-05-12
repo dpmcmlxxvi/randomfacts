@@ -1,5 +1,5 @@
 {
-  "name": "randomfacts",
+  "name": "@dpmcmlxxvi/randomfacts",
   "version": "0.0.0",
   "description": "Generate random facts about people.",
   "main": "index.js",
