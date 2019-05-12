@@ -2,7 +2,7 @@
 
 [![build](https://travis-ci.org/dpmcmlxxvi/randomfacts.svg?branch=master)](https://travis-ci.org/dpmcmlxxvi/randomfacts)
 [![coverage](https://img.shields.io/coveralls/dpmcmlxxvi/randomfacts.svg)](https://coveralls.io/r/dpmcmlxxvi/randomfacts?branch=master)
-[![npm](https://badge.fury.io/js/randomfacts.svg)](https://badge.fury.io/js/randomfacts)
+[![npm](https://badge.fury.io/js/%40dpmcmlxxvi%2Frandomfacts.svg)](https://badge.fury.io/js/%40dpmcmlxxvi%2Frandomfacts)
 
 [`randomfacts`][randomfacts-github] is a [Node][node-site] package that generates
 random facts about people given a list of their names. Inspired by [Sentencer]
@@ -89,8 +89,8 @@ Copyright (c) 2019 Daniel Pulido <dpmcmlxxvi@gmail.com>
 
 Source code is released under the [MIT License](http://opensource.org/licenses/MIT).
 
-[icon]: https://dpmcmlxxvi.github.io/randomfacts/web/img/icon.png
-[logo]: https://dpmcmlxxvi.github.io/randomfacts/web/img/logo-black.png
+[icon]: https://dpmcmlxxvi.github.io/randomfacts/img/icon.png
+[logo]: https://dpmcmlxxvi.github.io/randomfacts/img/logo-black.png
 [node-site]: https://nodejs.org
 [randomfacts-github]: https://github.com/dpmcmlxxvi/randomfacts
 [randomfacts-npm]: https://www.npmjs.com/package/randomfacts
