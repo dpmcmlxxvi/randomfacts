@@ -93,7 +93,7 @@ Source code is released under the [MIT License](http://opensource.org/licenses/M
 [logo]: https://dpmcmlxxvi.github.io/randomfacts/img/logo-black.png
 [node-site]: https://nodejs.org
 [randomfacts-github]: https://github.com/dpmcmlxxvi/randomfacts
-[randomfacts-npm]: https://www.npmjs.com/package/randomfacts
+[randomfacts-npm]: https://www.npmjs.com/package/@dpmcmlxxvi/randomfacts
 [randomfacts-site]: http://dpmcmlxxvi.github.io/randomfacts
 [randomfacts-web]: https://github.com/dpmcmlxxvi/randomfacts/web
 [Sentencer]: https://github.com/kylestetz/Sentencer
