@@ -3,7 +3,7 @@
 [![build](https://travis-ci.org/dpmcmlxxvi/randomfacts.svg?branch=master)](https://travis-ci.org/dpmcmlxxvi/randomfacts)
 [![coverage](https://img.shields.io/coveralls/dpmcmlxxvi/randomfacts.svg)](https://coveralls.io/r/dpmcmlxxvi/randomfacts?branch=master)
 [![npm](https://badge.fury.io/js/%40dpmcmlxxvi%2Frandomfacts.svg)](https://badge.fury.io/js/%40dpmcmlxxvi%2Frandomfacts)
-[![Greenkeeper badge](https://badges.greenkeeper.io/dpmcmlxxvi/randomfacts.svg)](https://greenkeeper.io/)
+
 
 [`randomfacts`][randomfacts-github] is a [Node][node-site] package that generates
 random facts about people given a list of their names. Inspired by [Sentencer]
