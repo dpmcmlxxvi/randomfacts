@@ -8,11 +8,12 @@
     "build": "run-s -s lint bundle | derequire | run-s -s uglify > ./web/js/randomfacts.js",
     "deploy": "gh-pages -d web",
     "lint": "eslint ./index.js",
-    "prepare": "npm run build",
+    "prepare": "npm run snyk-protect && npm run build",
     "test": "run-s test:lint test:build",
     "test:build": "nyc --reporter=lcov --reporter=text tape ./test/*.test.js",
     "test:lint": "eslint --quiet ./test/*.js",
-    "uglify": "terser --compress --mangle"
+    "uglify": "terser --compress --mangle",
+    "snyk-protect": "snyk protect"
   },
   "repository": {
     "type": "git",
@@ -47,6 +48,8 @@
   "dependencies": {
     "articles": "0.2.2",
     "randy": "1.5.1",
-    "sentencer": "0.2.1"
-  }
+    "sentencer": "0.2.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
